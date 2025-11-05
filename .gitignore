@@ -1,0 +1,46 @@
+# Archivos de configuración sensibles
+.env
+.env.local
+.env.production
+config.ini
+secrets.json
+credentials.json
+api_keys.txt
+
+# Claves de API y certificados
+*.pem
+*.key
+*.cert
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs y datos
+*.log
+logs/
+data/
+*.db
+*.sqlite
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# Trading data (opcional - depende de tu caso)
+# historical_data/
+# backtest_results/
